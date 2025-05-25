@@ -1,3 +1,5 @@
-"firstName,lastName,dob,email,phone,street1,street2,city,stateProvince,postalCode,country"
-"John,Doe,1990-01-01,john.doe@example.com,1234567890,123 Main St,,Anytown,NY,12345,USA"
-"Jane,Smith,1992-03-15,jane.smith@example.com,0987654321,456 Oak Ave,,Otherville,CA,98765,USA"
+firstName,lastName,dob,email,phone,street1,street2,city,stateProvince,postalCode,country
+jeremie,Smith,1992-03-15,jane.smith@example.com,089876543210,456 Oak Ave,,Otherville,CA,98765,USA
+Japeth,Smith,1992-03-15,jane.smith@example.com,089876543210,456 Oak Ave,,Otherville,CA,98765,USA
+John,Doe,1990-01-01,john.doe@example.com,081234567890,123 Main St,,Anytown,NY,12345,USA
+Jane,Smith,1992-03-15,jane.smith@example.com,089876543210,456 Oak Ave,,Otherville,CA,98765,USA

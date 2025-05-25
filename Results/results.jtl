@@ -1,1 +1,9 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1748185888455,1286,Login,200,OK,Load Testing 1-1,text,true,,1258,446,1,1,https://thinking-tester-contact-list.herokuapp.com/users/login,1286,0,978
+1748185889775,324,Get User Profile,200,OK,Load Testing 1-1,text,true,,857,542,1,1,https://thinking-tester-contact-list.herokuapp.com/users/me,324,0,0
+1748185890108,269,Add Contact,201,Created,Load Testing 1-1,text,true,,1074,840,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,268,0,0
+1748185890380,270,Get Contact List,200,OK,Load Testing 1-1,text,true,,5476,523,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts,269,0,0
+1748185890657,364,Get Single Contact,200,OK,Load Testing 1-1,text,true,,1069,548,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/68333322be9a720015a6b084,363,0,0
+1748185891024,353,Update Contact,200,OK,Load Testing 1-1,text,true,,1063,914,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/68333322be9a720015a6b084,353,0,0
+1748185891381,306,Update Partial Contact ,200,OK,Load Testing 1-1,text,true,,1071,671,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/68333322be9a720015a6b084,306,0,0
+1748185891690,353,Delete Contact,200,OK,Load Testing 1-1,text,true,,756,622,1,1,https://thinking-tester-contact-list.herokuapp.com/contacts/68333322be9a720015a6b084,353,0,0
