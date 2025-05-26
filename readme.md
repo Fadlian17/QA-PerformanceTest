@@ -45,7 +45,7 @@ Tes ini mencakup endpoint API berikut, yang semuanya butuh **Bearer Token** buat
 
 1.  **Siapin Dulu:**
 
-      * Udah install **Apache JMeter** kan?
+      * Udah install **Apache JMeter**
       * Pastikan kamu udah punya akun tes yang terdaftar di aplikasi Daftar Kontak.
 
 2.  **Gandakan Repositori Ini:**
@@ -58,7 +58,7 @@ Tes ini mencakup endpoint API berikut, yang semuanya butuh **Bearer Token** buat
 3.  **Buka File JMeter:**
 
       * Buka file `jmeter-project/ContactListApp_PerformanceTest.jmx` pakai Apache JMeter.
-      * **PENTING BANGET:** Jangan lupa **ganti** email dan password di bagian "Login" HTTP Request Sampler dengan akun tes kamu ya\!
+      * **PENTING:** Jangan lupa **ganti** email dan password di bagian "Login" HTTP Request Sampler dengan akun tes\!
 
 4.  **Jalanin dari Command Line (Buat Bikin Laporan HTML):**
 
@@ -83,24 +83,17 @@ Tes ini mencakup endpoint API berikut, yang semuanya butuh **Bearer Token** buat
 
   * **Laporan Tes Performa (PDF):**
     Analisis detail dari hasil tes performa, termasuk temuan, kesimpulan, dan rekomendasi, bisa kamu lihat di sini:
-    [Link ke Performance\_Test\_Report\_ContactListApp.pdf](https://www.google.com/search?q=documentation/Performance_Test_Report_ContactListApp.pdf)
+    [Link ke Performance\_Test\_Report\_ContactListApp.pdf](Results/performanceResultQA.pdf)
 
   * **Laporan HTML:**
 
-      * [Laporan HTML Tes Beban](https://www.google.com/search?q=results/load-test/html-report/index.html)
-      * [Laporan HTML Tes Stres](https://www.google.com/search?q=results/stress-test/html-report/index.html)
+      * [Laporan HTML Tes Beban](HTMLReports/loadTest/index.html)
+      * [Laporan HTML Tes Stres](HTMLReports/stressTest/index.html)
 
   * **Video Demo:**
     Lihat langsung gimana tes performa ini dijalankan dan penjelasan detail tentang skenario JMeter-nya di sini:
-    [Link ke ContactListApp\_PerformanceTest\_Demo.mp4](https://www.google.com/search?q=video/ContactListApp_PerformanceTest_Demo.mp4)
+    [Link ke ContactListApp\_PerformanceTest\_Demo.mp4](Results/record_performance.webm)
 
 -----
-
-## Temuan Penting (Contoh - Nanti Kamu Isi Sendiri Ya Setelah Tes)
-
-  * API-nya lumayan cepet responsnya pas bebannya ringan sampai sedang (di Tes Beban).
-  * Tapi, responsnya jadi jauh lebih lambat kalau jumlah user yang barengan lebih dari **[X]** (di Tes Stres).
-  * Endpoint `Add Contact` (`POST /contacts`) responsnya lebih lama dibanding endpoint `GET` pas bebannya berat.
-  * Angka error mulai naik pas jumlah user yang barengan udah nyampe **[Y]**.
 
 -----
